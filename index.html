@@ -25,8 +25,21 @@
 
 <span id="bpmdisplay">100</span>bpm <span id="bpmname">Andante</span>
 
+<p>Volume</p>
+<input id="volume" type="range" id="one" readonly="" min="0"
+       max="100"
+       step="1"
+       value="100">
+
 <audio id="a" src="beep-8.wav" preload=""></audio>
 
+<br>
+<div style="opacity:0.2">
+<p>Time signature</p>
+<input type="text" /><input type="text" />
+<p>Beat Subdivision</p>
+<input type="text" />
+</div>
     <!-- Using require.js, a module system for javascript, include the
          js files. This loads "main.js", which in turn can load other
          files, all handled by require.js:
